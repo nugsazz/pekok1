@@ -2344,7 +2344,7 @@ def bot(op):
                 else:md+="🔐 Protect cancel  →  off\n"
 		if wait["protectJoin"] == True: md+="🔐 Protectjoin → on\n"
 		else:md+="🔐 Protect join → off\n" 
-		cl.sendText(msg.to,md + "╚═════════════\n\n     🔐 Gûñtúr_₱ó€ñ¥a_§£êrå「😎」")
+		cl.sendText(msg.to,md + "╚═════════════\n\n     🔐 Aan jutawan ")a
               else:
                   msg.contentType = 13
                   msg.contentMetadata = {"mid": msg.from_}
@@ -2536,7 +2536,7 @@ def bot(op):
                 cl.sendText(msg.to,"Your comment ⤵\n\n" + str(wait["comment"]))
             elif msg.text in ["Bot creator","Creator"]:
             	msg.contentType = 13
-                msg.contentMetadata = {'mid': 'u0f3b4d62ba8de5b4cb83f71613c75be2'}
+                msg.contentMetadata = {'mid': 'ub76a0153a283da9a1443dfb043181335'}
                 cl.sendMessage(msg)
             elif msg.text in ["Gurl"]:
 	      if msg.from_ in admin:
