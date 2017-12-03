@@ -2536,7 +2536,7 @@ def bot(op):
                 cl.sendText(msg.to,"Your comment ⤵\n\n" + str(wait["comment"]))
             elif msg.text in ["Bot creator","Creator"]:
             	msg.contentType = 13
-                msg.contentMetadata = {'mid': 'ub76a0153a283da9a1443dfb043181335'}
+                msg.contentMetadata = {'mid': 'u84e571575c1f7fe8bda071470a4511a0'}
                 cl.sendMessage(msg)
             elif msg.text in ["Gurl"]:
 	      if msg.from_ in admin:
