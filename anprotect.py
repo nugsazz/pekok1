@@ -177,7 +177,7 @@ wait ={
     'leaveRoom':False,
     'timeline':False,
     'autoAdd':False,
-    'message':"Thanks for add Created by : https://line.me/R/ti/p/%40iyv1920f"
+    'message':"Thanks for add Created by : https://line.me/R/ti/p/%40iyv1920f",
     "lang":"JP",
     "comment":" Auto like \n\n ʙʏ:\n[☆] A̷̶̶̧̬̝̤̟͖͗̾̕͘͢͜͞a̵̵̷̛̝̲͖̜͈͓͕ͫ̉̅̆ͯ͐̄̽͘̕͝n̨̛̛͒̀̀́ ̹̐͌̒̅̈͑̏̀̿͢͜j̧̹̹̍ͦ̓ͯ́ͯ͂̿ͩ҉̸̢́҉u̇̋ͧ̅̇͂͏͞͏̷̨̡͜͢t̨̛̏ͮ̀a̸̷̴̛̿ͩ̀w̴̡̫͍͖͓̑̓̐̒̑́ą͎̯͇̩͓̥̤̉̈́ͬ̔̿͗́́̆́n̛̛͉̘̯̝̪͙͕͖̝̞ͭ̈́ͦ̔ͭͧ̾̿̌͟͠͞͞ [☆]\n[✯] https://line.me/R/ti/p/%40iyv1920f ",
     "likeOn":True,
