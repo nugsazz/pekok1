@@ -10,43 +10,42 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,subp
 
 
 cl = LINETCR.LINE()
-cl.login(token="EmYrKQOWwVujvhJ4Escd.47RkVqVs5RnD5ptDT6AfZq.6iWP7EDOg/PY4Notc37Ai8hXrPAWMqrBe/dKNid3+6c=")
+cl.login(token="EncUbKTtaJWQUNLNJtF5.NFGDbF6wLvchxWolldv/Lq.PHfVnc2GBxTtjgHZf6K9Qi7vgfZS42PZYoOcZSzMkQk=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="EmBhSKzTvEygq1I3q9a2.w39j/nEWC0t+UL75niLmqG.3kNs0uwQynoaKKfmm2XBNsRF9xmklG6zCGsS+7g622Y=")
+ki.login(token="En3qHldKsR7WKyzUCRz3.AcPOUa9oo8qTw0R6Snc5uW.hxOUaUkXHbOOokZmwED77EhAGRBV7Rq+D+U9dBqkQL4=")
 ki.loginResult()
-
 kk = LINETCR.LINE()
-kk.login(token="EmI0aOJfO9BdrGyQMMDc.kn016fwuFNSfSjmJxfhnha.IpDnc94MRftp6nY42n7GzCtuFRoGf5dyB8G6wHrjFWY=")
+kk.login(token="EnRtpz57apVmH7cxOQ3b.IXKXK6LFfrRLlynpkbC8oW.xPP4Ce2g4Jiv1YRSJkhdsPRw7XV5s8d9QKlumiK/yKA=")
 kk.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="Emj5nU8BfFMNakzuooY1.9p8zXrfhrLmh174NoW6PGq.e+fttjoUc4G+e+3e4AFxkt9ibScPMmSeeUL1Gj/No7A=")
+kc.login(token="EnXy9QSPIAEInIR48jY7.S2buvWa/ybKspv/ol2PR9W.cqLDweJ553uewFBDSIlYg9iWK7pyfP1pFHJgkjD/M9c=")
 kc.loginResult()
 
 kb = LINETCR.LINE()
-kb.login(token="Emmbby28VNq1gXBd3IH7.3hVg5XN6lZ7Ix1fGZIa6fW.sLboDUI7JtsBDesAkjWO6G+qlMMylMiTrFXSJTj83hg=")
+kb.login(token="Eno1w40fSrNWFu19Tm5d.cs0NY2cddDk6BMKCVLy7xq.4IKasxObecKH3frmXqEKSsXqKLnhcIfrgtziNg0W77c=")
 kb.loginResult()
 
 kd = LINETCR.LINE()
-kd.login(token="EmM9wsaBBoZUbxRUM9za.ASXSVcykGHrpTqYjZb0l2G.J6MzXxIFc4fykCd6PBWDwpd/yGh36tWFt6FYzwJlfEc=")
+kd.login(token="Enq4b7JY6RXRtMrkx7j5.e8Xb7RPVkeMfw2cYx28gbq.jFIIJaPymrcTfqha9fSSOincg9pfaiBOyYWc079+vXg=")
 kd.loginResult()
 
 ke = LINETCR.LINE()
-ke.login(token="Em9K46eRlQmUpqHD9HU3.7+EQA3K2ElJcbRqZDcciuW.ZChT7SCF0yy7iuOj6CNiQnStFc5sJx0uAmm2hmO6aSA=")
+ke.login(token="EnodgF2bKLZGGF45vycd.BbiXae1hQNxBW2egVFPFZq.LR6sJ+1TptTZqZgC4sbPEOhNfRIE7/iOuKQNUp1wqOU=")
 ke.loginResult()
 
 kg = LINETCR.LINE()
-kg.login(token="Em5DE85gOLmjwNfuWdF3.gdXRD5sg6uU3wk2zTTwXGW.c28QMgp8KN1i7pDP6JS9R6tfFlUEW0wH9gxpIcQiSKA=")
+kg.login(token="Enzya6M88iKis3HpJ249.TnWkGXuAepcrhzovazixUq.bZggHb+mdMnq7MeJvJrj+XeFSqGB/e0mpv/v7WIiBYA=")
 kg.loginResult()
 
 kh = LINETCR.LINE()
-kh.login(token="EmI0Ay9gcUVtqr3wihlc.cwogcSzbtJtLt+f0js39Ra.BrmS9c5E598BcK7ktnYGYYfS7HSqqbtC13OzcE7hFZw=")
+kh.login(token="EndDC8HmPoojIWUxvhNc.XbuRynX+X7zZLGMeCRjJha.rs94Lp/c/qXziF5fNE7QNXuloLJ+EZvmruKM59eo+tk=")
 kh.loginResult()
 
 sw = LINETCR.LINE()
-sw.login(token="Emrjz9FYia0rd12nWIO5.IUzXOwoAXY7BzrgnW44oLq.QCzkBOLBBVk+S9+BUKbTV3i6ATR0jfnDwTxXO/CzDTo=")
+sw.login(token="EnE8iI4Q79fHhyMFmlJ6.XJZfcwnQLFQ1AiEvsLeXXG.RMx2KDt/Wsp0WPyfXh6Rs+1lqdov3EsrWd1l4n6DHYk=")
 sw.loginResult()
 
 print u"login success"
@@ -55,10 +54,10 @@ sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
 
-~~~~~~~~~~Gûñtûr_₱õèñ¥æ_§£êræ~~~~~~~~~~~~~
+~~~~~~~~~~~~A̙͖̭̝̳̖̦̤̯̿ͦ́̊͆ͧ̕̕͝͠ͅ͏̡̛ą̵̡͕͇̲̩͊ͮ͆͋͒͛͂́n̸̸̵̨̢̛̛̛̤̑ͮͣ̐̃̉ͬ̋ͯ̌͡͡ ͚̼̭̖̤̖̪̈ͮ̔ͪ̎͆ͭ̅ͫ͏j̴͈̭͓̈͋̆́͜u̷͓͌͌ͯ͂ͯ̕ţ̟̬͖̻͎̯͉̓̀ͮ̋ͪ̅̉a̵̧̜̓ͧ̒̏́̏̾w̭̞̔̀̄̄͑͛̕͘̕͟͡͡҉a̻̫͚̥̯͇͇̟͌ͬ͑͟҉͡͏n̷̡̩̦̯͍̼̞̱̲̟͎̅ͩ͂͟͠~~~~~~~~~~
 
 
-              ✈ ̶̶̶✮卐D̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎E̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎S̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎T̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎R̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎O̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎Y̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎E̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎͎R̶̶꙯꙯꙰꙰͎͎͎͎͎͎͎͎͎͎͎͎͎͎S卐✮--✈
+              ✈A̙͖̭̝̳̖̦̤̯̿ͦ́̊͆ͧ̕̕͝͠ͅ͏̡̛ą̵̡͕͇̲̩͊ͮ͆͋͒͛͂́n̸̸̵̨̢̛̛̛̤̑ͮͣ̐̃̉ͬ̋ͯ̌͡͡ ͚̼̭̖̤̖̪̈ͮ̔ͪ̎͆ͭ̅ͫ͏j̴͈̭͓̈͋̆́͜u̷͓͌͌ͯ͂ͯ̕ţ̟̬͖̻͎̯͉̓̀ͮ̋ͪ̅̉a̵̧̜̓ͧ̒̏́̏̾w̭̞̔̀̄̄͑͛̕͘̕͟͡͡҉a̻̫͚̥̯͇͇̟͌ͬ͑͟҉͡͏n̷̡̩̦̯͍̼̞̱̲̟͎̅ͩ͂͟͠ ̶̶̶✈
 
 
 
@@ -136,7 +135,7 @@ helpMessage ="""
       ❉  ❥ ❦ ❧B£æ¢k ò₣₣ Đ€štró¥ēr ❧ ❦  ❥ ❉ 
 
 ╚════════════
-        ☞ http://line.me/ti/p/~gundul_gundul_pacul ___________________
+        ☞ http://line.me/ti/p/~alrahmantoganteng ___________________
 penting...!!!: Atas comment member,
    Bawah comment admin & staff only
 ╚════════════"""
@@ -167,10 +166,10 @@ Gmid = kg.getProfile().mid
 Hmid = kh.getProfile().mid 
 Imid = sw.getProfile().mid 
 Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,"u0f3b4d62ba8de5b4cb83f71613c75be2","ue3bacabd0bd2e6b35de4f4ddb7a685cd","u5b7f49f8d7b07344ffba5ef934894c42","u28dd35e855947e7b05b093235c51cd1c","uf4ff19c51147465307d7be273b0ea981","u6acc6cbc260a82144fb50c89cc1d0bda","udc7bc6e719fa2f3ee25f5160ce203a17"]
-admin = ["u0f3b4d62ba8de5b4cb83f71613c75be2","u06856881c176ae1144cc757861d15056","ue3bacabd0bd2e6b35de4f4ddb7a685cd","udc7bc6e719fa2f3ee25f5160ce203a17","u5b7f49f8d7b07344ffba5ef934894c42","u70193ea1d746ef85b04145c758278e24"]
-staff = ["u0f3b4d62ba8de5b4cb83f71613c75be2","u06856881c176ae1144cc757861d15056"]
-owner = ["u0f3b4d62ba8de5b4cb83f71613c75be2"]
-adminMID = 'u0f3b4d62ba8de5b4cb83f71613c75be2','u06856881c176ae1144cc757861d15056'
+admin = ["ub76a0153a283da9a1443dfb043181335"]
+staff = ["ub76a0153a283da9a1443dfb043181335"]
+owner = ["ub76a0153a283da9a1443dfb043181335"]
+adminMID = 'ub76a0153a283da9a1443dfb043181335'
 wait ={ 
     'contact':False,
     'autoJoin':True,
@@ -178,9 +177,9 @@ wait ={
     'leaveRoom':False,
     'timeline':False,
     'autoAdd':False,
-    'message':"Thanks for add Created by gÛñtúr",
+    'message':"Thanks for add Created by : https://line.me/R/ti/p/%40iyv1920f"
     "lang":"JP",
-    "comment":" ᴅᴏɴᴛ ᴋɪᴄᴋ ᴍᴇ ꜰʀᴏᴍ ɢʀᴏᴜᴘ•\n\nsᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ:\n[☆] gûñtúr~~çãkrå [☆]\n[✯] thē_đëštr¥ër ",
+    "comment":" Auto like \n\n ʙʏ:\n[☆] A̷̶̶̧̬̝̤̟͖͗̾̕͘͢͜͞a̵̵̷̛̝̲͖̜͈͓͕ͫ̉̅̆ͯ͐̄̽͘̕͝n̨̛̛͒̀̀́ ̹̐͌̒̅̈͑̏̀̿͢͜j̧̹̹̍ͦ̓ͯ́ͯ͂̿ͩ҉̸̢́҉u̇̋ͧ̅̇͂͏͞͏̷̨̡͜͢t̨̛̏ͮ̀a̸̷̴̛̿ͩ̀w̴̡̫͍͖͓̑̓̐̒̑́ą͎̯͇̩͓̥̤̉̈́ͬ̔̿͗́́̆́n̛̛͉̘̯̝̪͙͕͖̝̞ͭ̈́ͦ̔ͭͧ̾̿̌͟͠͞͞ [☆]\n[✯] https://line.me/R/ti/p/%40iyv1920f ",
     "likeOn":True,
     "commentOn":True,
     "commentBlack":{},
