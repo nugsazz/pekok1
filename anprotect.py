@@ -2311,6 +2311,31 @@ def bot(op):
                         cl.sendText(msg.to,"done")
                     else:
                         cl.sendText(msg.to,"è¦äº†å…³æ–­ã€‚")
+                elif msg.text in ["Group id","List group"]:
+	      if msg.from_ in admin:
+                gid = cl.getGroupIdsJoined()
+                h = ""
+                for i in gid:
+                    h += "[🔹]   %s  \n" % (cl.getGroup(i).name + " :::: " + str(len (cl.getGroup(i).members)))
+                cl.sendText(msg.to, "==== [GROUPS] ====\n\n"+ h +"\n[●] TOTAL GROUPS : " +str(len(gid)))
+            elif msg.text in ["Reject"]:
+	      if msg.from_ in admin:
+                gid = cl.getGroupIdsInvited()
+                for i in gid:
+                    cl.rejectGroupInvitation(i)
+                if wait["lang"] == "JP":
+                    cl.sendText(msg.to,"All invitations have been refused")
+                else:
+                    cl.sendText(msg.to,"æ‹’ç»äº†å…¨éƒ¨çš„é‚€è¯·ã€‚")
+            elif msg.text in ["Cancelall1"]:
+	      if msg.from_ in admin:
+                gid = ki.getGroupIdsInvited()
+                for i in gid:
+                    ki.rejectGroupInvitation(i)
+                if wait["lang"] == "JP":
+                    ki.sendText(msg.to,"All invitations have been refused")
+                else:
+                    ki.sendText(msg.to,"æ‹’ç»äº†å…¨éƒ¨çš„é‚€è¯·ã€‚")
             elif msg.text in ["TD setting","Set","Set view","Setting"]:
 	      if msg.from_ in admin:
                 md = "  卐✮ 「 S͞e͞t͞t͞i͞n͞g͞ B͞oт 」卐✮\n\n╔══════════════\n"
@@ -2344,38 +2369,13 @@ def bot(op):
                 else:md+="🔐 Protect cancel  →  off\n"
 		if wait["protectJoin"] == True: md+="🔐 Protectjoin → on\n"
 		else:md+="🔐 Protect join → off\n" 
-		cl.sendText(msg.to,md + "╚═════════════\n\n     🔐 Aan jutawan ")a
+		cl.sendText(msg.to,md + "╚═════════════\n\n     🔐 Aan jutawan「😎」")
               else:
                   msg.contentType = 13
                   msg.contentMetadata = {"mid": msg.from_}
                   cl.sendMessage(msg)
                   cl.sendText(msg.to, "Acces denied for you 😆\nKetik 「Creator」 for contact admin")
                   print "COMMENT DENIED"
-            elif msg.text in ["Group id","List group"]:
-	      if msg.from_ in admin:
-                gid = cl.getGroupIdsJoined()
-                h = ""
-                for i in gid:
-                    h += "[🔹]   %s  \n" % (cl.getGroup(i).name + " :::: " + str(len (cl.getGroup(i).members)))
-                cl.sendText(msg.to, "==== [GROUPS] ====\n\n"+ h +"\n[●] TOTAL GROUPS : " +str(len(gid)))
-            elif msg.text in ["Reject"]:
-	      if msg.from_ in admin:
-                gid = cl.getGroupIdsInvited()
-                for i in gid:
-                    cl.rejectGroupInvitation(i)
-                if wait["lang"] == "JP":
-                    cl.sendText(msg.to,"All invitations have been refused")
-                else:
-                    cl.sendText(msg.to,"æ‹’ç»äº†å…¨éƒ¨çš„é‚€è¯·ã€‚")
-            elif msg.text in ["Cancelall1"]:
-	      if msg.from_ in admin:
-                gid = ki.getGroupIdsInvited()
-                for i in gid:
-                    ki.rejectGroupInvitation(i)
-                if wait["lang"] == "JP":
-                    ki.sendText(msg.to,"All invitations have been refused")
-                else:
-                    ki.sendText(msg.to,"æ‹’ç»äº†å…¨éƒ¨çš„é‚€è¯·ã€‚")
             elif msg.text in ["Cancelall2"]:
 	      if msg.from_ in admin:
                 gid = kk.getGroupIdsInvited()
