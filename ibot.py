@@ -165,7 +165,6 @@ wait = {
     'timeline':False,
     'autoAdd':True,
     'message':"""❂••••••••AUTO ADD BY•••••••❂
-                  https://line.me/R/ti/p/%40iya4481p
 『⊰์◉⊱ᎢᎬᎪᎷ ᏴᏞᎪᏟᏦ ❂Ғ ᏀᎪᎷᎬᎡ⊰์◉⊱』""",
     "lang":"JP",
     "comment":"Thanks For Add Me",
@@ -3005,21 +3004,21 @@ def autolike():
         if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
           try:    
             cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"❂•••••AUTO LIKE BY••••••❂\n\nhttps://line.me/R/ti/p/%40iya4481p\n\n❂••••••MY OFFICIAL••••••❂")
+            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"❂•••••AUTO LIKE BY••••••❂\n\\n\n❂••••••MY OFFICIAL••••••❂")
             ki.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"❂•••••AUTO LIKE BY••••••❂\n\nhttps://line.me/R/ti/p/%40iya4481p\n\n❂••••••MY OFFICIAL••••••❂")
+            ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"❂•••••AUTO LIKE BY••••••❂\n\\n\n❂••••••MY OFFICIAL••••••❂")
             ki1.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            ki1.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"❂•••••AUTO LIKE BY••••••❂\n\nhttps://line.me/R/ti/p/%40iya4481p\n\n❂••••••MY OFFICIAL••••••❂")
+            ki1.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"❂•••••AUTO LIKE BY••••••❂\n\\n\n❂••••••MY OFFICIAL••••••❂")
             ki2.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            ki2.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"❂•••••AUTO LIKE BY••••••❂\n\nhttps://line.me/R/ti/p/%40iya4481p\n\n❂••••••MY OFFICIAL••••••❂")
+            ki2.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"❂•••••❂")
             ki3.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            ki3.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"❂•••••AUTO LIKE BY••••••❂\n\nhttps://line.me/R/ti/p/%40iya4481p\n\n❂••••••MY OFFICIAL••••••❂")
+            ki3.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"❂•••••AUTO LIKE BY••••••❂\n\\n\n❂••••••MY OFFICIAL••••••❂")
             ki4.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            ki4.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"❂•••••AUTO LIKE BY••••••❂\n\nhttps://line.me/R/ti/p/%40iya4481p\n\n❂••••••MY OFFICIAL••••••❂")
+            ki4.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"❂•••••AUTO LIKE BY••••••❂\n\\n\n❂••••••MY OFFICIAL••••••❂")
             ki5.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            ki5.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"❂•••••AUTO LIKE BY••••••❂\n\nhttps://line.me/R/ti/p/%40iya4481p\n\n❂••••••MY OFFICIAL••••••❂")
+            ki5.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"❂•••••AUTO LIKE BY••••••❂\n\\n\n❂••••••MY OFFICIAL••••••❂")
             ki6.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            ki6.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"❂•••••AUTO LIKE BY••••••❂\n\nhttps://line.me/R/ti/p/%40iya4481p\n\n❂••••••MY OFFICIAL••••••❂")
+            ki6.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"❂•••••AUTO LIKE BY••••••❂\n\\n\n❂••••••MY OFFICIAL••••••❂")
             print "Like"
           except:
             pass
